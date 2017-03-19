@@ -32,4 +32,4 @@
 ![](http://on225liw3.bkt.clouddn.com/limit.gif)
 
 
-[点我查看具体js代码](cart/cart.js "点我查看关键JS代码")
+[点我查看具体js代码](cart.js "点我查看关键JS代码")
