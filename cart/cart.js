@@ -1,6 +1,4 @@
-window.onload=function () {
-
-}
+//获取购物车的信息
 var getcart = function(){
 	var xlq_sch = localStorage.getItem('xlq_sch');
 	// 获取位置
