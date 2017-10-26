@@ -1,4 +1,4 @@
-//获取购物车的信息
+//获取购物车信息方法
 var getcart = function(){
 	var xlq_sch = localStorage.getItem('xlq_sch');
 	// 获取位置
@@ -87,11 +87,11 @@ var del_goods = function(goods){
 	}else{
 		//重新生成
 		var newcart = new Object;
-	    newcart.sum = tosum;
-	    newcart.total = buy_num.innerHTML;
-	    newcart.goods = cartgoods;
-	    var str = JSON.stringify(newcart);
-	    localStorage.setItem('xlq_cart_'+sch_id,str);
+	    	newcart.sum = tosum;
+	    	newcart.total = buy_num.innerHTML;
+	    	newcart.goods = cartgoods;
+	    	var str = JSON.stringify(newcart);
+	    	localStorage.setItem('xlq_cart_'+sch_id,str);
 	};
 
 	// 减去总价对象
@@ -174,17 +174,16 @@ var reduce = function(goods){
 		var tosum = (Number(tprice)-Number(goods_price)).toFixed(2);
 		//重新生成
 		var newcart = new Object;
-        newcart.sum = tosum;
-        newcart.total = buy_num;
-        newcart.goods = cartgoods;
-        var str = JSON.stringify(newcart);
-        localStorage.setItem('xlq_cart_'+sch_id,str);
+        	newcart.sum = tosum;
+        	newcart.total = buy_num;
+        	newcart.goods = cartgoods;
+        	var str = JSON.stringify(newcart);
+        	localStorage.setItem('xlq_cart_'+sch_id,str);
 
 		// 减去该商品的总价钱
 		tolprice.innerHTML = tosum;
 		// 总的购买数量-1
 		document.getElementById('buy_num').innerHTML--;
-		
 	}
 
 }
@@ -267,11 +266,11 @@ var add = function(goods){
 
 		//重新生成
 		var newcart = new Object;
-        newcart.sum = tosum;
-        newcart.total = buy_num;
-        newcart.goods = cartgoods;
-        var str = JSON.stringify(newcart);
-        localStorage.setItem('xlq_cart_'+sch_id,str);
+        	newcart.sum = tosum;
+        	newcart.total = buy_num;
+        	newcart.goods = cartgoods;
+        	var str = JSON.stringify(newcart);
+        	localStorage.setItem('xlq_cart_'+sch_id,str);
 
 
 		// 总价对象
