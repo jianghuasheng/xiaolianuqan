@@ -5,7 +5,7 @@
 ----------
 
 **效果如下：**<br>
-![动态购物车图片](http://on225liw3.bkt.clouddn.com/cart_1.gif)
+![动态购物车图片](http://f.jianghuasheng.cn/cart_1.gif)
 
 ## 功能效果说明： ##
 
@@ -13,23 +13,23 @@
 
 > ### 采用的是H5的localStorage+JSON格式来存储选中的商品信息 
  
-![](http://on225liw3.bkt.clouddn.com/cart1.png)
+![](http://f.jianghuasheng.cn/cart1.png)
 
 > ### 可以动态计算价格和数量  
 
-![](http://on225liw3.bkt.clouddn.com/cart2.png)
-![](http://on225liw3.bkt.clouddn.com/cart3.png)
+![](http://f.jianghuasheng.cn/cart2.png)
+![](http://f.jianghuasheng.cn/cart3.png)
 
 
 > ### 数量限额 
 
-![](http://on225liw3.bkt.clouddn.com/cart4.png)
-![](http://on225liw3.bkt.clouddn.com/cart5.png)
+![](http://f.jianghuasheng.cn/cart4.png)
+![](http://f.jianghuasheng.cn/cart5.png)
 
 
 > ### 判断是否特定商品 
 
-![](http://on225liw3.bkt.clouddn.com/limit.gif)
+![](http://f.jianghuasheng.cn/limit.gif)
 
 
 [点我查看具体js代码](cart.js "点我查看关键JS代码")
