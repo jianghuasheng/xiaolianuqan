@@ -3,4 +3,4 @@
 
 ### 一、原生购物车js ###
 **效果如下：**<br>
-[![动态购物车图片](http://on225liw3.bkt.clouddn.com/cart_1.gif)](https://github.com/jianghuasheng/xiaolianuqan/tree/master/cart "点我去看看")
+[![动态购物车图片](http://f.jianghuasheng.cn/cart_1.gif)](https://github.com/jianghuasheng/xiaolianuqan/tree/master/cart "点我去看看")
